@@ -1,0 +1,21 @@
+.nav {
+    /* background-color: rgba(131, 130, 127, 0.7); */
+    margin: 20px 0px;
+    padding-bottom: 20px;
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    border-bottom: solid 1px grey;
+}
+.logo {
+    margin-left: 50px;
+    width: 165px;
+}
+
+@media only screen and (max-width: 768px){
+.logo{
+    width: 200px;
+    margin-left: 20px;
+}
+}

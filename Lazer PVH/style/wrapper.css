@@ -1,0 +1,94 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.wrapper section {
+      width: 100%;
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(5, 20%);
+      margin: 0 0 20px 0;
+}
+.wrapper section .item {
+        padding: 0px 15px;
+        transition: 250 all;
+        opacity: 0.8;
+}
+.wrapper section .item:hover { 
+    transform: scale(1.05);
+    opacity: 1;
+        }
+.wrapperimg {
+    width: 100%;
+}
+.wrapperbtn {
+        cursor: pointer;
+        position: absolute;
+        color: #fff;
+        text-decoration: none;
+        font-size: 8em;
+        background:rgb(0,0,0);
+        width: 80px;
+        padding: 20px;
+        text-align: center;
+        z-index: 1;
+      }
+      .wrapperbtnleft {
+          top:0; bottom:0; left:0;
+          background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+        }
+        .wrapperbtnright {
+          top:0; bottom:0; right: 0;
+          background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+        } 
+
+.titulo-item {
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: relative;
+    bottom: 50px;
+    color: white;
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.invisible{
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px){
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(5,95%);
+        overflow-x:scroll;
+        scroll-behavior: smooth;
+    }
+    .wrapper section {
+          width: 100%;
+          /* position: relative; */
+          display: flex;
+          /* grid-template-columns: repeat(3, 33.3%); */
+          margin: 0 0 5px 0;
+    }
+    .wrapper section .item {
+            padding: 0px 7px;
+    }
+    .wrapperbtn {
+            font-size: 4em;
+            display: none;
+          }
+    .titulo-item {
+            position: static;
+            text-align: center;
+            display: flex;
+            font-size: 0.8rem;
+            min-height: 30%;
+            justify-content: center;
+            align-items: center;
+        }
+}
