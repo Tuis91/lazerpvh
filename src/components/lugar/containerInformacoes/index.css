@@ -1,0 +1,10 @@
+.favoritos {
+    margin: 5% 5% 5% 15%;
+    width: 80%;
+    text-align: right;
+}
+
+.favicon {
+    cursor: pointer;
+    width: 20px;
+}

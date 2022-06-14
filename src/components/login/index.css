@@ -1,0 +1,42 @@
+.titulo {
+    font-size: 1.7rem;
+    color: rgb(255, 170, 0);
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.formlogin {
+    max-width: 500px;
+    background-color: rgba(138, 158, 167, 0.5);
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.label {
+    display: block;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+.textinput {
+    width: 80%;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+
+.submitbtn {
+    margin: 20px;
+    font-size: 1.3rem;
+}
+
+.link {
+    font-size: 1rem;
+}
+
+a {
+    color: white;
+}

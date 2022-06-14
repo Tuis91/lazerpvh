@@ -1,0 +1,8 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.tarefas {
+    display: inline-block;
+}

@@ -1,0 +1,21 @@
+.alterarinfolugar{
+    text-align: center;
+}
+
+.alterarinfolugar textarea{
+    margin: 10px;
+}
+
+.alterarinfolugar label {
+    padding: 10px;
+    width: 80%;
+}
+
+.titulo-local {
+    font-size: 1.7rem;
+    color: rgb(255, 170, 0);
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

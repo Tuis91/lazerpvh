@@ -1,0 +1,46 @@
+.containerComents {
+    width: 70%;
+    margin: auto;
+    color: white;
+    text-align: left;
+}
+
+.titulo2 {
+    color: white;
+    font-size: 1.5rem;
+    display: block;
+    margin-top: 10px;
+}
+
+.avaliacao {
+    min-height: 70px;
+    text-align: left;
+    margin: auto;
+    background-color: rgba(138, 158, 167, 0.5);
+    padding-top: 10px;
+    border-radius: 5px 5px 0 0;
+    padding-left: 5px;
+}
+
+.autor {
+    display: block;
+    margin: auto;
+    background-color: rgba(39, 41, 43, 0.5);
+    border-radius: 0 0 5px 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    min-height: 20px;
+}
+
+.divisoria {
+    height: 5px;    
+    background-color: black;
+}
+
+.comentario {
+    width: 100%;
+}
+
+.avaldenied {
+    color: red;
+}

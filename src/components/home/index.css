@@ -1,0 +1,98 @@
+.item {
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.item img:hover {
+    width: 100%;
+    border: solid 2px white;
+}
+
+.tagsplace {
+    display: grid;
+    grid-template-columns: repeat(3,100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.capaslider {
+    width: 100%;
+}
+
+.titulo-lugar {
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: relative;
+    bottom: 50px;
+    color: white;
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.titulo-tags {
+    font-size: 1.7rem;
+    color: rgb(255, 170, 0);
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.tagsection {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    margin: 0 0 20px 0;
+}
+
+.tagitem {
+    padding: 0px 15px;
+    transition: 250 all;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.tagitem:hover {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+.tagbtn {
+        cursor: pointer;
+        position: absolute;
+        color: #fff;
+        text-decoration: none;
+        font-size: 8em;
+        background:rgb(0,0,0);
+        width: 80px;
+        padding: 20px;
+        text-align: center;
+        z-index: 1;
+}
+
+.tagbtnleft {
+    top:0; bottom:0; left:0;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+.tagbtnright {
+    top:0; bottom:0; right: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .tagbtn{
+        display: none;
+    }
+    .tagsplace {
+        display: flex;
+        overflow: hidden;
+        scroll-behavior: smooth;
+    }
+}
